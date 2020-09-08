@@ -3,7 +3,7 @@
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>♥♥All For My Best Friend ♥♥</title>
+    <title>♥♥My BestFriend ♥♥</title>
     <link rel="shortcut icon" href="https://cantgis.gitlab.io/ymsd-new/favicon.ico" >
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
@@ -166,23 +166,11 @@
             if (a==1) {
                 document.body.classList.add('body--ready');
                 alert("いつも君(きみ)のそばで。"); 
-                S.UI.simulate("Miss|you|#time");
-            }else if (a==2){
-                document.body.classList.add('body--ready1');
-                alert("You know i’m gon get ya~");
-                S.UI.simulate("MyCat|MyMai|#time");               
-            }else if (a==3) {
-                 document.body.classList.add('body--ready2');
-                 alert("Whatever it takes, get there~");
-                 S.UI.simulate("Nice|to|Meet|You|#countdown 3|#time");                
-            }else if (a==4) {
-                 document.body.classList.add('body--ready3');
-                 alert("Remember you always have me~");
-                 S.UI.simulate("Life|always|with|you||#countdown 3|#time");
+                S.UI.simulate("MyCat|Mai|#time");
             }else{
                  document.body.classList.add('body--ready4');
-                 alert("I will always be at your side~");
-                 S.UI.simulate("Love");                
+                 alert("いつも君(きみ)のそばで。");
+                 S.UI.simulate("Nice|to|Meet|You");                
             }
 
             S.Drawing.loop(function () {
